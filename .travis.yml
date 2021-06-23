@@ -1,7 +1,7 @@
 language: python
 python:
-  - 3.9.4
-install:
+  - 3.6
   - pip install -q -r requirements-dev.txt
 script:
   - flake8
+  - pytest libpythonpro
