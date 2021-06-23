@@ -68,7 +68,7 @@ def find_package_data(
                         break
                 if bad_name:
                     continue
-                if (os.path.isfile(os.path.join(fn, "libpython/__init__.py"))
+                if (os.path.isfile(os.path.join(fn, "libpython_01/__init__.py"))
                         and not prefix):
                     if not package:
                         new_package = name
@@ -94,7 +94,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpython"
+PACKAGE = "libpython_01"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python"
 AUTHOR = "André Ferreira"
