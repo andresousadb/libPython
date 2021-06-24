@@ -1,0 +1,1 @@
+from libpython_01 import github2def test_buscar_avatar():    url=github2.buscar_avatar('andresousadb')    assert 'https://avatars.githubusercontent.com/u/58778346?v=4'== url
